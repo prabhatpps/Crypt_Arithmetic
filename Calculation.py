@@ -62,10 +62,4 @@ for one_assumption in assumed_data:
     if word3_to_number == word1_to_number + word2_to_number:
         print(one_assumption)
 
-# Fix the given bug
-# USA + USSR = PEACE
-# p = 1, E = 0, U = 9, A = 2, R = 8, S = 3, c = 7
 
-
-# add multi element addition
-# Subtraction
