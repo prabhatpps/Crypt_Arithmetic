@@ -61,4 +61,3 @@ for one_assumption in assumed_data:
 
     if word3_to_number == word1_to_number + word2_to_number:
         print(one_assumption)
-
