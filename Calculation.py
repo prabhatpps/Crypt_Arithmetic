@@ -27,9 +27,12 @@ values_input_data = Question_Frame.data_input_dict.values()
 
 for assumption in data_assumptions:
     if len(set(assumption)) == len(assumption):
+        test_increment = 0
         for j in values_input_data:
-            if j not in assumption:
-                unique_data_assumptions.append(assumption)
+            if j in assumption:
+                test_increment += 1
+        if test_increment == 0:
+            unique_data_assumptions.append(assumption)
 
 # Create a list of dictionaries for each combination of digits
 assumed_data = []
