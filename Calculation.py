@@ -1,7 +1,7 @@
 import Question_Frame
 
 # Printing statement
-print("Possible solutions for this Cript Arithmetic is given below")
+print("Possible solutions for this Crypt Arithmetic is given below")
 
 # Main Calculation part
 word1 = Question_Frame.word_a_list.copy()
