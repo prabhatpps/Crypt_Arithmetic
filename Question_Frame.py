@@ -3,20 +3,12 @@ word_a_list1 = list(input("First Word: ").upper())
 word_b_list1 = list(input("Second Word: ").upper())
 word_c_list1 = list(input("Resulting Word: ").upper())
 
-# Creating a valid range for variables
-Number_Range = list(range(10))
-
 # Separating Variables
 variables = []
-for i in word_a_list1:
-    if i not in variables:
-        variables.append(i)
-for j in word_b_list1:
-    if j not in variables:
-        variables.append(j)
-for k in word_c_list1:
-    if k not in variables:
-        variables.append(k)
+variables.extend(word_a_list1)
+variables.extend(word_b_list1)
+variables.extend(word_c_list1)
+variables = list(set(variables))
 
 # Taking and arranging given values in dictionary
 data_input_dict = {}
