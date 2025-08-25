@@ -1,7 +1,6 @@
 # Crypt_Arithmetic
 This is a project made in python programing language to solve crypt arithmetic problems which is a part of logical reasoning and can be asked in interviews.
 
-![alt text](https://prepinsta.com/wp-content/uploads/2022/01/Logical-Sequence-of-words18.webp)
 
 ## Question 1
 Decode and solve the below mentioned Crypt Arithmetic problem:
@@ -70,7 +69,6 @@ Now verifying the above values in the equation we get:
 C5C4C3C2C1
 
 
-![alt text](https://prepinsta.com/wp-content/uploads/2022/01/TANMAY5.webp)
 
 ## Question. 2
 If “EAT + THAT = APPLE”, what is the sum of A+P+P+L+E?
@@ -89,5 +87,3 @@ the value of E is 8 and 1 will be a carry over to the next column.
 That is 1 + A + A= L = 3. And finally H = 2.  
 Hence, 819 + 9219 = 10038.  
 A+P+P+L+E = 1+0+0+3+8 = 12.
-
-![alt text](https://prepinsta.com/wp-content/uploads/2022/01/TANMAY9.webp)
